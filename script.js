@@ -18,6 +18,12 @@ $(document).ready(function(){
     })
     $("#mark").click(function(){
         $(".text1").toggle(500);
+        $(".text2").hide(500);
+        $(".text3").hide(500);
+        $(".text4").hide(500);
+        $(".text5").hide(500);
+        $(".text6").hide(500);
+        $(".text7").hide(500);
         $("#unread-mark").hide(500)
         $('#mark').css('background', 'white')
         if($("#mark").hasClass('active')){
@@ -28,6 +34,12 @@ $(document).ready(function(){
     })
     $("#angela").click(function(){
         $(".text2").toggle(500);
+        $(".text1").hide(500);
+        $(".text3").hide(500);
+        $(".text4").hide(500);
+        $(".text5").hide(500);
+        $(".text6").hide(500);
+        $(".text7").hide(500);
         $("#unread-angela").hide(500)
         $('#angela').css('background', 'white')
         if($("#angela").hasClass('active')){
@@ -38,6 +50,12 @@ $(document).ready(function(){
     })
     $("#jacob").click(function(){
         $(".text3").toggle(500);
+        $(".text1").hide(500);
+        $(".text2").hide(500);
+        $(".text4").hide(500);
+        $(".text5").hide(500);
+        $(".text6").hide(500);
+        $(".text7").hide(500);
         $("#unread-jacob").hide(500)
         $('#jacob').css('background', 'white')
         if($("#jacob").hasClass('active')){
@@ -48,6 +66,12 @@ $(document).ready(function(){
     })
     $("#rizky").click(function(){
         $(".text4").toggle(500);
+        $(".text1").hide(500);
+        $(".text2").hide(500);
+        $(".text3").hide(500);
+        $(".text5").hide(500);
+        $(".text6").hide(500);
+        $(".text7").hide(500);
         $("#unread-rizky").hide(500)
         $('#rizky').css('background', 'white')
         if($("#rizky").hasClass('active')){
@@ -56,9 +80,14 @@ $(document).ready(function(){
         }           
         $('#son').text(number)
     })
-
     $("#kimberly").click(function(){
         $(".text5").toggle(500);
+        $(".text1").hide(500);
+        $(".text2").hide(500);
+        $(".text3").hide(500);
+        $(".text4").hide(500);
+        $(".text6").hide(500);
+        $(".text7").hide(500);
         $("#unread-kimberly").hide(500)
         $('#kimberly').css('background', 'white')
         if($("#kimberly").hasClass('active')){
@@ -69,24 +98,35 @@ $(document).ready(function(){
     })
     $("#nathan").click(function(){
         $(".text6").toggle(500);
+        $(".text1").hide(500);
+        $(".text2").hide(500);
+        $(".text3").hide(500);
+        $(".text4").hide(500);
+        $(".text5").hide(500);
+        $(".text7").hide(500);
         $("#unread-nathan").hide(500)
         $('#nathan').css('background', 'white')
         if($("#nathan").hasClass('active')){
             number--
             $("#nathan").removeClass('active')
-        }           
+        }
         $('#son').text(number)
     })
     $("#anna").click(function(){
         $(".text7").toggle(500);
+        $(".text1").hide(500);
+        $(".text2").hide(500);
+        $(".text3").hide(500);
+        $(".text4").hide(500);
+        $(".text5").hide(500);
+        $(".text6").hide(500);
         $("#unread-anna").hide(500)
         $('#anna').css('background', 'white')
         if($("#anna").hasClass('active')){
             number--
             $("#anna").removeClass('active')
-        }           
+        }
         $('#son').text(number)
     })
-
     $('#son').text(number)
 });
